@@ -15,9 +15,25 @@ body {
   justify-content: center;
 }
 
+.content {
+  margin: auto auto auto 16px;
+}
+
+.text {
+  margin: 16px auto 16px auto ;
+}
+
+.first-line{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .modal {
+  display: flex;
   background: white;
   width: 480px;
+  padding: 16px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -27,10 +43,11 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
